@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
 
         BmiService service = new BmiService();
-        int m = 98; // Масса тела в килограммах
-        int h = 187; // Рост в сантиметрах
+        int m = 108; // Масса тела в килограммах
+        double h = 1.87; // Рост в сантиметрах
 
         double index = service.calculate(m, h);
         int intValue = (int)index;
